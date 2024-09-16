@@ -143,7 +143,21 @@ namespace ContosoUniversity.Controllers
         /// </summary>
         /// <param name="id">Otsitava õpilase ID</param>
         /// <returns>Tagastab kasutajale vaate, koos õpilase muudetavate andmetega.</returns>
-       
+        [HttpGet]
+        public async Task<IActionResult> Edit(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+            var studentToEdit = await _context.Students
+                .FirstOrDefaultAsync(m => m.ID == id);
+            if (studentToEdit == null)
+            {
+                return NotFound();
+            }
+            return View(studentToEdit);
+        }
 
         /// <summary>
         /// Asünkroonne POST meetod, mis uuendab andmebaasis oleva õpilase, võttes selleks
@@ -152,7 +166,22 @@ namespace ContosoUniversity.Controllers
         /// </summary>
         /// <param name="modifiedStudent"></param>
         /// <returns>Tagastab kasutaja "Index" vaatesse koos nüüd muudetud õpilasega</returns>
-        
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Edit([Bind("ID,LastName,FirstMidName,EnrollmentDate")] Student modifiedStudent)
+        {
+            if (ModelState.IsValid)
+            {
+                if (modifiedStudent.ID == null)
+                {
+                    return BadRequest();
+                }
+                _context.Students.Update(modifiedStudent);
+                await _context.SaveChangesAsync();
+                return RedirectToAction("Index");
+            }
+            return View(modifiedStudent);
+        }
 
         /// <summary>
         /// Asünkroonne Clone POST meetod, mis id järgi "Index" vaatest
