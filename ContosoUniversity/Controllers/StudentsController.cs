@@ -217,6 +217,7 @@ namespace ContosoUniversity.Controllers
             return RedirectToAction("Index");
         }
 
+
         /// <summary>
         /// Asünkroonne Delete GET meetod. 
         /// Leiab andmebaasist päringus oleva id järgi õpilase
