@@ -192,7 +192,31 @@ namespace ContosoUniversity.Controllers
         /// <param name="id">Kloonitava õpilase ID</param>
         /// <returns>Tagastab kasutaja "Index" vaatesse koos kloonitud õpilasega.</returns>
 
-
+        [HttpPost]
+        public async Task<IActionResult> Clone(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+            //var existingStudent = Details(id);
+            //return View(existingStudent);
+            var clonedStudent = await _context.Students // tehakse õpilase objekt andmebaasis oleva id järgi
+                .FirstOrDefaultAsync(m => m.ID == id);
+            if (clonedStudent == null)
+            {
+                return NotFound();
+            }
+            int lastID = _context.Students.OrderBy(u => u.ID).Last().ID;
+            lastID++;
+            var selectedStudent = new Student();
+            selectedStudent.FirstMidName = clonedStudent.FirstMidName;
+            selectedStudent.LastName = clonedStudent.LastName;
+            selectedStudent.EnrollmentDate = clonedStudent.EnrollmentDate;
+            _context.Students.Add(selectedStudent);
+            await _context.SaveChangesAsync(true);
+            return RedirectToAction("Index");
+        }
 
         /// <summary>
         /// Asünkroonne Delete GET meetod. 
