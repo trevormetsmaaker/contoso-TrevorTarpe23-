@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\opilane\\Downloads\\TARpe23Contoso-master (2)\\TARpe23Contoso-master\\ContosoUniversity\\ContosoUniversity.csproj": {}
+    "C:\\Users\\opilane\\Source\\Repos\\trevormetsmaaker\\contoso-TrevorTarpe23-\\ContosoUniversity\\ContosoUniversity.csproj": {}
   },
   "projects": {
-    "C:\\Users\\opilane\\Downloads\\TARpe23Contoso-master (2)\\TARpe23Contoso-master\\ContosoUniversity\\ContosoUniversity.csproj": {
+    "C:\\Users\\opilane\\Source\\Repos\\trevormetsmaaker\\contoso-TrevorTarpe23-\\ContosoUniversity\\ContosoUniversity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\opilane\\Downloads\\TARpe23Contoso-master (2)\\TARpe23Contoso-master\\ContosoUniversity\\ContosoUniversity.csproj",
+        "projectUniqueName": "C:\\Users\\opilane\\Source\\Repos\\trevormetsmaaker\\contoso-TrevorTarpe23-\\ContosoUniversity\\ContosoUniversity.csproj",
         "projectName": "ContosoUniversity",
-        "projectPath": "C:\\Users\\opilane\\Downloads\\TARpe23Contoso-master (2)\\TARpe23Contoso-master\\ContosoUniversity\\ContosoUniversity.csproj",
+        "projectPath": "C:\\Users\\opilane\\Source\\Repos\\trevormetsmaaker\\contoso-TrevorTarpe23-\\ContosoUniversity\\ContosoUniversity.csproj",
         "packagesPath": "C:\\Users\\opilane\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\opilane\\Downloads\\TARpe23Contoso-master (2)\\TARpe23Contoso-master\\ContosoUniversity\\obj\\",
+        "outputPath": "C:\\Users\\opilane\\Source\\Repos\\trevormetsmaaker\\contoso-TrevorTarpe23-\\ContosoUniversity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -84,7 +84,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
