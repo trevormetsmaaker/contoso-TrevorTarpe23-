@@ -1,4 +1,5 @@
-﻿using ContosoUniversity.Data;
+﻿
+using ContosoUniversity.Data;
 using ContosoUniversity.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -49,7 +50,6 @@ namespace ContosoUniversity.Controllers
             return View(vm);
 
         }
-
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -80,6 +80,8 @@ namespace ContosoUniversity.Controllers
             }
             return View(modifiedInstructor);
         }
+       
+
         [HttpGet]
         public IActionResult Create()
         {
@@ -107,7 +109,7 @@ namespace ContosoUniversity.Controllers
             //}
             //ModelState.Remove();
             //ModelState.Remove(selectedCourses);
-            if (ModelState.IsValid) 
+            if (ModelState.IsValid)
             {
                 _context.Add(instructor);
                 await _context.SaveChangesAsync();
@@ -124,7 +126,7 @@ namespace ContosoUniversity.Controllers
             var instructorCourses = new HashSet<int>(instructor.CourseAssignments.Select(c => c.CourseID));
             //valime kursused kus courseid on õpetajal olemas
             var vm = new List<AssignedCourseData>(); //teeme viewmodeli jaoks uue nimekirja
-            foreach (var course in allCourses) 
+            foreach (var course in allCourses)
             {
                 vm.Add(new AssignedCourseData
                 {
@@ -136,23 +138,7 @@ namespace ContosoUniversity.Controllers
             ViewData["Courses"] = vm;
         }
 
-        public async Task<IActionResult> Delete(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var instructor = await _context.Instructors
-                .FirstOrDefaultAsync(m => m.ID == id);
-
-            if (instructor == null)
-            {
-                return NotFound();
-            }
-
-            return View(instructor);
-        }
+        
 
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
