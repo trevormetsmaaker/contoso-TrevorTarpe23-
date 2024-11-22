@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("tanno mafia.ApplicationsServices")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f2debf6d84df84d121897b6f7bb257ea25adacdd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f96f7d27abc4ae9a65e3055eeb74a442067f548a")]
 [assembly: System.Reflection.AssemblyProductAttribute("tanno mafia.ApplicationsServices")]
 [assembly: System.Reflection.AssemblyTitleAttribute("tanno mafia.ApplicationsServices")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
