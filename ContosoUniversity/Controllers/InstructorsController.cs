@@ -84,7 +84,22 @@ namespace ContosoUniversity.Controllers
 
             return View(instructor);
         }
-
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Edit([Bind("ID,LastName,FirstMidName,EnrollmentDate")] Instructor modifiedInstructor)
+        {
+            if (ModelState.IsValid)
+            {
+                if (modifiedInstructor.ID == null)
+                {
+                    return BadRequest();
+                }
+                _context.Instructors.Update(modifiedInstructor);
+                await _context.SaveChangesAsync();
+                return RedirectToAction("Index");
+            }
+            return View(modifiedInstructor);
+        }
 
         [HttpGet]
         public IActionResult Create()
