@@ -50,6 +50,8 @@ namespace ContosoUniversity.Controllers
             return View(vm);
 
         }
+
+
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -64,22 +66,7 @@ namespace ContosoUniversity.Controllers
             }
             return View(InstructorToEdit);
         }
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit([Bind("ID,LastName,FirstMidName,EnrollmentDate")] Instructor modifiedInstructor)
-        {
-            if (ModelState.IsValid)
-            {
-                if (modifiedInstructor.ID == null)
-                {
-                    return BadRequest();
-                }
-                _context.Instructors.Update(modifiedInstructor);
-                await _context.SaveChangesAsync();
-                return RedirectToAction("Index");
-            }
-            return View(modifiedInstructor);
-        }
+        
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
