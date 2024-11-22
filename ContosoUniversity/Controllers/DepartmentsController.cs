@@ -63,26 +63,7 @@ namespace Contoso_University.Controllers
             return View(department);
         }
 
-        [HttpGet]
-        public async Task<IActionResult> Delete(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var department = await _context.Departments
-                .Include(d => d.Instructor)
-                .AsNoTracking()
-                .FirstOrDefaultAsync(d => d.DepartmentID == id);
-
-            if (department == null)
-            {
-                return NotFound();
-            }
-
-            return View(department);
-        }
+        
 
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
