@@ -80,7 +80,24 @@ namespace ContosoUniversity.Controllers
             }
             return View(modifiedInstructor);
         }
-       
+        public async Task<IActionResult> Delete(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var instructor = await _context.Instructors
+                .FirstOrDefaultAsync(m => m.ID == id);
+
+            if (instructor == null)
+            {
+                return NotFound();
+            }
+
+            return View(instructor);
+        }
+
 
         [HttpGet]
         public IActionResult Create()
