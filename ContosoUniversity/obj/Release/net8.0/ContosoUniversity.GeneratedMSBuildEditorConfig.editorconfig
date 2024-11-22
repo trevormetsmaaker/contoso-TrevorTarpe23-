@@ -18,6 +18,178 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\opilane\source\repos\trevormetsmaaker\contoso-TrevorTarpe23-\ContosoUniversity
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/opilane/source/repos/trevormetsmaaker/contoso-TrevorTarpe23-/ContosoUniversity/contoso-TrevorTarpe23-/ContosoUniversity/Views/Departments/BaseOn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Y29udG9zby1UcmV2b3JUYXJwZTIzLVxDb250b3NvVW5pdmVyc2l0eVxWaWV3c1xEZXBhcnRtZW50c1xCYXNlT24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/opilane/source/repos/trevormetsmaaker/contoso-TrevorTarpe23-/ContosoUniversity/contoso-TrevorTarpe23-/ContosoUniversity/Views/Departments/create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Y29udG9zby1UcmV2b3JUYXJwZTIzLVxDb250b3NvVW5pdmVyc2l0eVxWaWV3c1xEZXBhcnRtZW50c1xjcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/opilane/source/repos/trevormetsmaaker/contoso-TrevorTarpe23-/ContosoUniversity/contoso-TrevorTarpe23-/ContosoUniversity/Views/Departments/delete - Copy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Y29udG9zby1UcmV2b3JUYXJwZTIzLVxDb250b3NvVW5pdmVyc2l0eVxWaWV3c1xEZXBhcnRtZW50c1xkZWxldGUgLSBDb3B5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/opilane/source/repos/trevormetsmaaker/contoso-TrevorTarpe23-/ContosoUniversity/contoso-TrevorTarpe23-/ContosoUniversity/Views/Departments/details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Y29udG9zby1UcmV2b3JUYXJwZTIzLVxDb250b3NvVW5pdmVyc2l0eVxWaWV3c1xEZXBhcnRtZW50c1xkZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/opilane/source/repos/trevormetsmaaker/contoso-TrevorTarpe23-/ContosoUniversity/contoso-TrevorTarpe23-/ContosoUniversity/Views/Departments/edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Y29udG9zby1UcmV2b3JUYXJwZTIzLVxDb250b3NvVW5pdmVyc2l0eVxWaWV3c1xEZXBhcnRtZW50c1xlZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/opilane/source/repos/trevormetsmaaker/contoso-TrevorTarpe23-/ContosoUniversity/contoso-TrevorTarpe23-/ContosoUniversity/Views/Departments/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Y29udG9zby1UcmV2b3JUYXJwZTIzLVxDb250b3NvVW5pdmVyc2l0eVxWaWV3c1xEZXBhcnRtZW50c1xpbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/opilane/source/repos/trevormetsmaaker/contoso-TrevorTarpe23-/ContosoUniversity/contoso-TrevorTarpe23-/ContosoUniversity/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Y29udG9zby1UcmV2b3JUYXJwZTIzLVxDb250b3NvVW5pdmVyc2l0eVxWaWV3c1xIb21lXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/opilane/source/repos/trevormetsmaaker/contoso-TrevorTarpe23-/ContosoUniversity/contoso-TrevorTarpe23-/ContosoUniversity/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Y29udG9zby1UcmV2b3JUYXJwZTIzLVxDb250b3NvVW5pdmVyc2l0eVxWaWV3c1xIb21lXFByaXZhY3kuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/opilane/source/repos/trevormetsmaaker/contoso-TrevorTarpe23-/ContosoUniversity/contoso-TrevorTarpe23-/ContosoUniversity/Views/Instructors/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Y29udG9zby1UcmV2b3JUYXJwZTIzLVxDb250b3NvVW5pdmVyc2l0eVxWaWV3c1xJbnN0cnVjdG9yc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/opilane/source/repos/trevormetsmaaker/contoso-TrevorTarpe23-/ContosoUniversity/contoso-TrevorTarpe23-/ContosoUniversity/Views/Instructors/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Y29udG9zby1UcmV2b3JUYXJwZTIzLVxDb250b3NvVW5pdmVyc2l0eVxWaWV3c1xJbnN0cnVjdG9yc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/opilane/source/repos/trevormetsmaaker/contoso-TrevorTarpe23-/ContosoUniversity/contoso-TrevorTarpe23-/ContosoUniversity/Views/Instructors/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Y29udG9zby1UcmV2b3JUYXJwZTIzLVxDb250b3NvVW5pdmVyc2l0eVxWaWV3c1xJbnN0cnVjdG9yc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/opilane/source/repos/trevormetsmaaker/contoso-TrevorTarpe23-/ContosoUniversity/contoso-TrevorTarpe23-/ContosoUniversity/Views/Instructors/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Y29udG9zby1UcmV2b3JUYXJwZTIzLVxDb250b3NvVW5pdmVyc2l0eVxWaWV3c1xJbnN0cnVjdG9yc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/opilane/source/repos/trevormetsmaaker/contoso-TrevorTarpe23-/ContosoUniversity/contoso-TrevorTarpe23-/ContosoUniversity/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Y29udG9zby1UcmV2b3JUYXJwZTIzLVxDb250b3NvVW5pdmVyc2l0eVxWaWV3c1xTaGFyZWRcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/opilane/source/repos/trevormetsmaaker/contoso-TrevorTarpe23-/ContosoUniversity/contoso-TrevorTarpe23-/ContosoUniversity/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Y29udG9zby1UcmV2b3JUYXJwZTIzLVxDb250b3NvVW5pdmVyc2l0eVxWaWV3c1xTaGFyZWRcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/opilane/source/repos/trevormetsmaaker/contoso-TrevorTarpe23-/ContosoUniversity/contoso-TrevorTarpe23-/ContosoUniversity/Views/Students/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Y29udG9zby1UcmV2b3JUYXJwZTIzLVxDb250b3NvVW5pdmVyc2l0eVxWaWV3c1xTdHVkZW50c1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/opilane/source/repos/trevormetsmaaker/contoso-TrevorTarpe23-/ContosoUniversity/contoso-TrevorTarpe23-/ContosoUniversity/Views/Students/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Y29udG9zby1UcmV2b3JUYXJwZTIzLVxDb250b3NvVW5pdmVyc2l0eVxWaWV3c1xTdHVkZW50c1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/opilane/source/repos/trevormetsmaaker/contoso-TrevorTarpe23-/ContosoUniversity/contoso-TrevorTarpe23-/ContosoUniversity/Views/Students/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Y29udG9zby1UcmV2b3JUYXJwZTIzLVxDb250b3NvVW5pdmVyc2l0eVxWaWV3c1xTdHVkZW50c1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/opilane/source/repos/trevormetsmaaker/contoso-TrevorTarpe23-/ContosoUniversity/contoso-TrevorTarpe23-/ContosoUniversity/Views/Students/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Y29udG9zby1UcmV2b3JUYXJwZTIzLVxDb250b3NvVW5pdmVyc2l0eVxWaWV3c1xTdHVkZW50c1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/opilane/source/repos/trevormetsmaaker/contoso-TrevorTarpe23-/ContosoUniversity/contoso-TrevorTarpe23-/ContosoUniversity/Views/Students/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Y29udG9zby1UcmV2b3JUYXJwZTIzLVxDb250b3NvVW5pdmVyc2l0eVxWaWV3c1xTdHVkZW50c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/opilane/source/repos/trevormetsmaaker/contoso-TrevorTarpe23-/ContosoUniversity/contoso-TrevorTarpe23-/ContosoUniversity/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Y29udG9zby1UcmV2b3JUYXJwZTIzLVxDb250b3NvVW5pdmVyc2l0eVxWaWV3c1xfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/opilane/source/repos/trevormetsmaaker/contoso-TrevorTarpe23-/ContosoUniversity/contoso-TrevorTarpe23-/ContosoUniversity/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Y29udG9zby1UcmV2b3JUYXJwZTIzLVxDb250b3NvVW5pdmVyc2l0eVxWaWV3c1xfVmlld1N0YXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/opilane/source/repos/trevormetsmaaker/contoso-TrevorTarpe23-/ContosoUniversity/contoso-TrevorTarpe23-/Departments/BaseOn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Y29udG9zby1UcmV2b3JUYXJwZTIzLVxEZXBhcnRtZW50c1xCYXNlT24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/opilane/source/repos/trevormetsmaaker/contoso-TrevorTarpe23-/ContosoUniversity/contoso-TrevorTarpe23-/Departments/create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Y29udG9zby1UcmV2b3JUYXJwZTIzLVxEZXBhcnRtZW50c1xjcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/opilane/source/repos/trevormetsmaaker/contoso-TrevorTarpe23-/ContosoUniversity/contoso-TrevorTarpe23-/Departments/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Y29udG9zby1UcmV2b3JUYXJwZTIzLVxEZXBhcnRtZW50c1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/opilane/source/repos/trevormetsmaaker/contoso-TrevorTarpe23-/ContosoUniversity/contoso-TrevorTarpe23-/Departments/details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Y29udG9zby1UcmV2b3JUYXJwZTIzLVxEZXBhcnRtZW50c1xkZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/opilane/source/repos/trevormetsmaaker/contoso-TrevorTarpe23-/ContosoUniversity/contoso-TrevorTarpe23-/Departments/edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Y29udG9zby1UcmV2b3JUYXJwZTIzLVxEZXBhcnRtZW50c1xlZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/opilane/source/repos/trevormetsmaaker/contoso-TrevorTarpe23-/ContosoUniversity/contoso-TrevorTarpe23-/Departments/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Y29udG9zby1UcmV2b3JUYXJwZTIzLVxEZXBhcnRtZW50c1xpbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/opilane/source/repos/trevormetsmaaker/contoso-TrevorTarpe23-/ContosoUniversity/contoso-TrevorTarpe23-/tanno mafia/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Y29udG9zby1UcmV2b3JUYXJwZTIzLVx0YW5ubyBtYWZpYVxWaWV3c1xIb21lXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/opilane/source/repos/trevormetsmaaker/contoso-TrevorTarpe23-/ContosoUniversity/contoso-TrevorTarpe23-/tanno mafia/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Y29udG9zby1UcmV2b3JUYXJwZTIzLVx0YW5ubyBtYWZpYVxWaWV3c1xIb21lXFByaXZhY3kuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/opilane/source/repos/trevormetsmaaker/contoso-TrevorTarpe23-/ContosoUniversity/contoso-TrevorTarpe23-/tanno mafia/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Y29udG9zby1UcmV2b3JUYXJwZTIzLVx0YW5ubyBtYWZpYVxWaWV3c1xTaGFyZWRcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/opilane/source/repos/trevormetsmaaker/contoso-TrevorTarpe23-/ContosoUniversity/contoso-TrevorTarpe23-/tanno mafia/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Y29udG9zby1UcmV2b3JUYXJwZTIzLVx0YW5ubyBtYWZpYVxWaWV3c1xTaGFyZWRcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/opilane/source/repos/trevormetsmaaker/contoso-TrevorTarpe23-/ContosoUniversity/contoso-TrevorTarpe23-/tanno mafia/Views/Tanno/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Y29udG9zby1UcmV2b3JUYXJwZTIzLVx0YW5ubyBtYWZpYVxWaWV3c1xUYW5ub1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/opilane/source/repos/trevormetsmaaker/contoso-TrevorTarpe23-/ContosoUniversity/contoso-TrevorTarpe23-/tanno mafia/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Y29udG9zby1UcmV2b3JUYXJwZTIzLVx0YW5ubyBtYWZpYVxWaWV3c1xfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/opilane/source/repos/trevormetsmaaker/contoso-TrevorTarpe23-/ContosoUniversity/contoso-TrevorTarpe23-/tanno mafia/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Y29udG9zby1UcmV2b3JUYXJwZTIzLVx0YW5ubyBtYWZpYVxWaWV3c1xfVmlld1N0YXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/opilane/source/repos/trevormetsmaaker/contoso-TrevorTarpe23-/ContosoUniversity/Views/Courses/CreateEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlc1xDcmVhdGVFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/opilane/source/repos/trevormetsmaaker/contoso-TrevorTarpe23-/ContosoUniversity/Views/Courses/DetailsDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlc1xEZXRhaWxzRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/opilane/source/repos/trevormetsmaaker/contoso-TrevorTarpe23-/ContosoUniversity/Views/Courses/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/opilane/source/repos/trevormetsmaaker/contoso-TrevorTarpe23-/ContosoUniversity/Views/Departments/BaseOn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudHNcQmFzZU9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/opilane/source/repos/trevormetsmaaker/contoso-TrevorTarpe23-/ContosoUniversity/Views/Departments/create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudHNcY3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/opilane/source/repos/trevormetsmaaker/contoso-TrevorTarpe23-/ContosoUniversity/Views/Departments/delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudHNcZGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/opilane/source/repos/trevormetsmaaker/contoso-TrevorTarpe23-/ContosoUniversity/Views/Departments/details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudHNcZGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/opilane/source/repos/trevormetsmaaker/contoso-TrevorTarpe23-/ContosoUniversity/Views/Departments/edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudHNcZWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/opilane/source/repos/trevormetsmaaker/contoso-TrevorTarpe23-/ContosoUniversity/Views/Departments/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudHNcaW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/opilane/source/repos/trevormetsmaaker/contoso-TrevorTarpe23-/ContosoUniversity/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -77,6 +249,14 @@ build_metadata.AdditionalFiles.CssScope =
 [C:/Users/opilane/source/repos/trevormetsmaaker/contoso-TrevorTarpe23-/ContosoUniversity/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/opilane/source/repos/trevormetsmaaker/contoso-TrevorTarpe23-/ContosoUniversity/contoso-TrevorTarpe23-/ContosoUniversity/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Y29udG9zby1UcmV2b3JUYXJwZTIzLVxDb250b3NvVW5pdmVyc2l0eVxWaWV3c1xTaGFyZWRcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-irm3nad44q
+
+[C:/Users/opilane/source/repos/trevormetsmaaker/contoso-TrevorTarpe23-/ContosoUniversity/contoso-TrevorTarpe23-/tanno mafia/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Y29udG9zby1UcmV2b3JUYXJwZTIzLVx0YW5ubyBtYWZpYVxWaWV3c1xTaGFyZWRcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-l090y3ljg4
 
 [C:/Users/opilane/source/repos/trevormetsmaaker/contoso-TrevorTarpe23-/ContosoUniversity/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
