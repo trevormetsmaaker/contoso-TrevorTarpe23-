@@ -7,6 +7,8 @@ namespace ContosoUniversity.Models
     public class Department
     {
         [Key]
+
+        public string? Instructor {  get; set; }
         public int DepartmentID { get; set; }
 
         [StringLength(50, MinimumLength = 3)]
@@ -21,9 +23,9 @@ namespace ContosoUniversity.Models
         public DateTime StartDate { get; set; }
 
         [StringLength(50, MinimumLength = 3)]
-        public string DepartmentOwner { get; set; } // minu isiklik
+        public string? DepartmentOwner { get; set; } 
 
-        public DateTime EndDate { get; set; } // minu isiklik
+        public DateTime EndDate { get; set; } 
 
         public int? InstructorID { get; set; }
 
