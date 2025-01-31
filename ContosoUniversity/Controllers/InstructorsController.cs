@@ -169,6 +169,29 @@ namespace ContosoUniversity.Controllers
             return RedirectToAction(nameof(Index));
         }
 
+        public async Task<IActionResult> Clone(int? ID)
+        {
+            if (ID == null)
+            {
+                return NotFound();
+            }
+            var instructor = _context.Instructors.FirstOrDefault(m => m.ID == ID);
+            if (instructor == null)
+            {
+                return NotFound();
+            }
+            var instructorClone = new Instructor
+            {
+                LastName = instructor.LastName,
+                FirstMidName = instructor.FirstMidName,
+                HireDate = instructor.HireDate,
+
+            };
+
+            _context.Add(instructorClone);
+            await _context.SaveChangesAsync();
+            return RedirectToAction("Index");
+        }
 
 
     }
