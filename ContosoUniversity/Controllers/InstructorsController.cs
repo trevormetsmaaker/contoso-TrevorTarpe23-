@@ -68,38 +68,7 @@ namespace ContosoUniversity.Controllers
             return View(instructor);
         }
 
-            public async Task<IActionResult> Edit(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-            var InstructorToEdit = await _context.Instructors
-                .FirstOrDefaultAsync(m => m.ID == id);
-            if (InstructorToEdit == null)
-            {
-                return NotFound();
-            }
-            return View(InstructorToEdit);
-        }
-        
-        
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit([Bind("ID,LastName,FirstMidName,EnrollmentDate")] Instructor modifiedInstructor)
-        {
-            if (ModelState.IsValid)
-            {
-                if (modifiedInstructor.ID == null)
-                {
-                    return BadRequest();
-                }
-                _context.Instructors.Update(modifiedInstructor);
-                await _context.SaveChangesAsync();
-                return RedirectToAction("Index");
-            }
-            return View(modifiedInstructor);
-        }
+       
 
         [HttpGet]
         public IActionResult Create()
