@@ -83,6 +83,7 @@ namespace Contoso_University.Controllers
             return View(department);
         }
 
+
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
@@ -126,5 +127,7 @@ namespace Contoso_University.Controllers
             }
             return RedirectToAction(nameof(Index));
         }
+
+       
     }
 }
